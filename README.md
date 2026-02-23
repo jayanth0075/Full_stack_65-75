@@ -1,7 +1,7 @@
-# Trello Clone
+# TaskFlow
 
 # Project
-A full-stack web application clone of Trello built using ReactJS and Spring Boot for a university course final project.
+A full-stack web application built using ReactJS and Spring Boot.
 Project focused on demonstrating agile principles in software development, back-end development utilizing SQL database structure and MVVM application structure, and user-authentication. 
 
 ## App Features
@@ -43,7 +43,7 @@ Project focused on demonstrating agile principles in software development, back-
 
 - Steps to setup the frontend project on local machine:
 
-- Change directory to trello-clone with: cd .\trello-clone\ 
+- Change directory to taskflow with: cd .\trello-clone\ 
 
 - Run installation dependencies:
 - npm install
@@ -54,7 +54,7 @@ Project focused on demonstrating agile principles in software development, back-
 
 ## Running the Frontend
 
-- Developed through React in Trello-clone folder. To access the documents launch the files through Local port: 3000. 
+- Developed through React in taskflow folder. To access the documents launch the files through Local port: 3000. 
 - Using npm start in terminal to launch the browser once repository is downloaded.
 
 - To launch the frontend code, run the command: npm run start
@@ -78,4 +78,4 @@ Project focused on demonstrating agile principles in software development, back-
 
 ## Running the Backend
 
-- Open the backend on the IDE of choice, locate and run the TrelloCloneApplication.java
+- Open the backend on the IDE of choice, locate and run the TaskFlowApplication.java
