@@ -40,9 +40,7 @@ function Registerform(props){
                 <br></br>
                 <input maxLength={64} type="text" required placeholder="What country would you like to visit?" ref={securityRef} />
                 <br></br>
-                <button
-                style={{ color: "white", background: "green", padding:"15px" }}
-                > Register Now </button>
+                <button> Create Account </button>
             </form>
         </section>
     );

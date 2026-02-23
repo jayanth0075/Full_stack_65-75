@@ -22,8 +22,7 @@ function LoginForm(props){
             <br></br>
             <input type="password" required placeholder="Password" ref={passwordRef} />
             <br></br>
-            <button
-            style={{ color: "white", background: "green", padding:"15px" }}> Login </button>
+            <button> Sign In </button>
         </form>
     );
 

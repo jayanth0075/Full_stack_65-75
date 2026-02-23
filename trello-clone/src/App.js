@@ -25,7 +25,7 @@ import NavigationTasksFiltered from "./pages/NavigationTasksFiltered";
 
 function App() {
   return (   
-    <div>
+    <div style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
 
       <React.Fragment>
           <Switch>
@@ -116,6 +116,10 @@ function App() {
 
           </Switch>
       </React.Fragment>
+
+      <footer className="app-footer">
+        &copy; 2026 TaskFlow &mdash; Built by <strong>A. Jayanth</strong> &amp; <strong>Kumbhar Kiran</strong>
+      </footer>
     </div>
   );
 }

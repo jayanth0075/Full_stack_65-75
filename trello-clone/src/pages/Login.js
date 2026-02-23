@@ -28,10 +28,12 @@ function Loginpage(){
   return (
 
       <div className={c.forms}>
-        <h1 className={c.loginColor}> Login Here </h1>
+        <div style={{marginBottom: '6px', fontSize: '0.95rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '2px', textTransform: 'uppercase'}}>Welcome to TaskFlow</div>
+        <h1 className={c.loginColor}> Sign In </h1>
+        <p style={{color: 'rgba(255,255,255,0.45)', fontSize: '0.9rem', marginBottom: '24px'}}>Manage your projects efficiently</p>
         <LoginForm LoginHand={LoginHandler}/>
 
-        <section className="forgetIt"> <a href="/forgotpassword"><p> Forgot Password? </p></a></section>
+        <section className={c.forgetIt}> <a href="/forgotpassword"><p> Forgot Password? </p></a></section>
       </div>
   );
 }

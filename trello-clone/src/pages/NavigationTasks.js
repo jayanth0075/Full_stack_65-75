@@ -43,12 +43,19 @@ function NavigationTasks(){
         <nav>
 
 
-            <ul>
-                <li><Link to="/login">Logout</Link></li>
-                <li><Link to="/tasks">Tasks</Link></li>
-                <li><Link to="/create-task">Create Task</Link></li>
-                <li><Link to="/boards">Boards</Link></li>
-                <li><Link to="/workspaces">Workspaces</Link></li>
+            <ul style={{justifyContent: 'space-between'}}>
+                <li style={{float: 'none'}}>
+                    <Link to="/" style={{fontWeight: 700, fontSize: '1.1rem', background: 'linear-gradient(135deg, #7c3aed, #06b6d4)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent', letterSpacing: '1px'}}>
+                        TaskFlow
+                    </Link>
+                </li>
+                <div style={{display: 'flex'}}>
+                    <li><Link to="/workspaces">Workspaces</Link></li>
+                    <li><Link to="/boards">Boards</Link></li>
+                    <li><Link to="/tasks">Tasks</Link></li>
+                    <li><Link to="/create-task">Create Task</Link></li>
+                    <li><Link to="/login">Logout</Link></li>
+                </div>
             </ul>
             <form onSubmit={filterDates}>
                 <Select

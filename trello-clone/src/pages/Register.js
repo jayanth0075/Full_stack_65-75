@@ -29,7 +29,9 @@ function Registration(){
 
   return (
   <section className={e.forms}>
-    <h1 className={e.registerColor}> Register Page</h1>
+    <div style={{marginBottom: '6px', fontSize: '0.95rem', color: 'rgba(255,255,255,0.5)', letterSpacing: '2px', textTransform: 'uppercase'}}>Join TaskFlow</div>
+    <h1 className={e.registerColor}> Create Account</h1>
+    <p style={{color: 'rgba(255,255,255,0.45)', fontSize: '0.9rem', marginBottom: '24px'}}>Start managing your projects today</p>
       <Registerform userHand={userHandler}/>
   </section>
   );
